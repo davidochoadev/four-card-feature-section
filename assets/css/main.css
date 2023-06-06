@@ -1,0 +1,24 @@
+/* ================================================================= */
+/* 
+   MAIN SECTION
+*/
+
+.header__container {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   padding: .5em .5em 2em .5em;
+}
+.header__title {
+   font-size: 1.2em;
+   font-weight: 200;
+}
+.header__subtitle {
+   font-size: 1.2em;
+   font-weight: 600;
+}
+.header__description {
+   padding: 1.5em;
+   font-size: .7em;
+}
+/* ================================================================= */
