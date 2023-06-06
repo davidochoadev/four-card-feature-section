@@ -8,14 +8,17 @@
    flex-direction: column;
    text-align: center;
    padding: .5em .5em 2em .5em;
+   min-height: 15rem;
+   justify-content: flex-end;
 }
 .header__title {
    font-size: 1.2em;
-   font-weight: 200;
+   font-weight: 600;
+   color: var(--very-dark-blue);
 }
 .header__subtitle {
    font-size: 1.2em;
-   font-weight: 600;
+   font-weight: 200;
 }
 .header__description {
    padding: 1.5em;

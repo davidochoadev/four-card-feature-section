@@ -2,23 +2,52 @@
 /* 
    MAIN SECTION
 */
+.main__container {
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   margin-bottom: 4em;
+}
 
-.header__container {
+.section {
+   border-radius: .4em;
+   box-shadow: 1px 1px 1em .1em rgba(0,0,0, .2);
+   padding: 2em;
+   margin: .5em;
+}
+
+.card__title {
+   color: var(--very-dark-blue);
+   font-size: 1.1em;
+}
+
+.card__description {
+   font-size: .7em
+}
+
+.figure__container {
    display: flex;
-   flex-direction: column;
-   text-align: center;
-   padding: .5em .5em 2em .5em;
+   padding: 2em 0 0 0;
+   justify-content: flex-end;
 }
-.header__title {
-   font-size: 1.2em;
-   font-weight: 200;
+
+.figure__item {
+   width: 3rem;
+   aspect-ratio: 1/1;
 }
-.header__subtitle {
-   font-size: 1.2em;
-   font-weight: 600;
+
+.supervisor {
+   border-top: .3em solid var(--cyan);
 }
-.header__description {
-   padding: 1.5em;
-   font-size: .7em;
+
+.team-builder {
+   border-top: .3em solid var(--red);
+}
+
+.karma {
+   border-top: .3em solid var(--orange);
+}
+
+.calculator {
+   border-top: .3em solid var(--blue);
 }
 /* ================================================================= */
