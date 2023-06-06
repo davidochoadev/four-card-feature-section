@@ -25,3 +25,25 @@
    font-size: .7em;
 }
 /* ================================================================= */
+@media (min-width: 40em) {
+   .header__container {
+      margin: 1em;
+      min-height: 10em;
+      padding: .5em;
+   }
+   .header__title {
+      font-size: 2.2em;
+   }
+   .header__subtitle {
+      font-size: 2.2em;
+   }
+   .header__description {
+      padding: 1em;
+      font-size: 1em;
+   }
+}
+@media (min-width: 1048px) {
+   .header__container {
+      max-width: 42%
+   }
+}

@@ -5,7 +5,7 @@
 .main__container {
    display: grid;
    grid-template-rows: 1fr 1fr 1fr 1fr;
-   margin-bottom: 4em;
+   margin-bottom: 4rem;
 }
 
 .section {
@@ -51,3 +51,32 @@
    border-top: .3em solid var(--blue);
 }
 /* ================================================================= */
+
+@media (min-width: 40em) {
+   .main__container {
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 80%;
+      margin-bottom: 3em;
+   }
+   .supervisor {
+      grid-row-start: 1;
+      grid-row-end:3;
+      height: min-content;
+      align-self: center;
+   }
+   .karma {
+      grid-row-start : 2;
+      grid-column-start: 2;
+   }
+   .calculator {
+      grid-row-start: 1;
+      grid-row-end: 3;
+      height: min-content;
+      align-self: center;
+   }
+   .team-builder {
+      grid-row-start: 1;
+      grid-column-start: 2;
+   }
+}
